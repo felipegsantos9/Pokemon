@@ -4,20 +4,28 @@ body {
     margin: 0;
     padding: 20px;
     max-height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
 }
 
-.Card {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #ff0000;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 10px;
-    padding: 20px;
-    height: 600px;
-    width: 200px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+h1{
+    color: #01a1a1;
+    font-size: 96px;
+    font-family: poppins;
+    text-align: center;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
 }
